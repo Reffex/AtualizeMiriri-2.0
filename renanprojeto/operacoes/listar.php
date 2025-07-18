@@ -27,7 +27,7 @@ if ($operacoes === false) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../../assets/css/styles.css">
-    <title>Operações</title>
+    <title>Atualize Miriri</title>
     <script>
         setTimeout(function() {
             const msg = document.getElementById('alerta-msg');
@@ -94,10 +94,11 @@ if ($operacoes === false) {
         <?php else: ?>
             <p class="nenhuma-operacao">Nenhuma operação cadastrada.</p>
         <?php endif; ?>
-        
+
         <div class="register-link">
             <p><a href="../../index.php">Voltar para o menu</a></p>
         </div>
     </div>
 </body>
+
 </html>
