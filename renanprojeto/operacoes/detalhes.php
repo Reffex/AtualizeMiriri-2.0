@@ -95,6 +95,7 @@ $movimentacao = $valores['movimentacao'] ?? 0.0;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Atualize Miriri</title>
     <style>
         .form-box-wide {
             width: 100%;
