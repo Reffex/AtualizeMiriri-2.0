@@ -11,12 +11,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $indexador = $_POST['indexador'];
     $periodicidade = $_POST['periodicidade'];
 
-    $atualizar_ate = $_POST['atualizar_ate']; 
+    $atualizar_ate = $_POST['atualizar_ate'];
     $atualizar_dia_debito = (int) $_POST['atualizar_dia_debito'];
     $atualizar_correcao_monetaria = (float) $_POST['atualizar_correcao_monetaria'];
     $atualizar_juros_nominais = (float) $_POST['atualizar_juros_nominais'];
 
-    $alterar_taxas_em = $_POST['alterar_taxas_em']; 
+    $alterar_taxas_em = $_POST['alterar_taxas_em'];
     $alterar_dia_debito = (int) $_POST['alterar_dia_debito'];
     $alterar_correcao_monetaria = (float) $_POST['alterar_correcao_monetaria'];
     $alterar_juros_nominais = (float) $_POST['alterar_juros_nominais'];
@@ -69,7 +69,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../../assets/css/styles.css">
+    <title>Atualize Miriri</title>
 </head>
 
 <body>
